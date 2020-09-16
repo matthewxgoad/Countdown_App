@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    background-image: url("https://d3bzyjrsc4233l.cloudfront.net/news/Xmas.jpg");
+    background-size: cover;
+}
+
+.container .title{
+    font-size: 3.5rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container .countdown-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .countdown-container .countdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 1rem 2rem;
+}
+
+.container .countdown-container .countdown .timer{
+    font-size: 6rem;
+}
+
+.container .countdown-container .countdown .desc{
+    font-size: 1.5rem;
+}
