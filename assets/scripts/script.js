@@ -1,8 +1,8 @@
-const newYearDate = new Date(2021,00,01);
+const targetDate = new Date(2021,04,01); // index zero
 
 const countdown = () => {
     const currentDate = new Date();
-    const totalSeconds = (newYearDate - currentDate) / 1000;
+    const totalSeconds = (targetDate - currentDate) / 1000;
 
     const days = Math.floor(totalSeconds / 3600 / 24);
     const hours = Math.floor(totalSeconds / 3600) % 24;
